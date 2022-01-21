@@ -6,7 +6,6 @@ nav .navflex ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /* background: linear-gradient(to bottom left, #ffcc00 0%, #ff9900 45%); */
   }
 
   nav li {
@@ -62,4 +61,10 @@ nav .navflex ul {
     justify-content: space-between;
   }
 
+
+  @media screen and (max-width: 700px){
+    nav .navflex-inner {
+     flex-direction: row;
+    }
+  }
 
