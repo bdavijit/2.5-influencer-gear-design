@@ -64,7 +64,7 @@ nav .navflex ul {
 
   @media screen and (max-width: 700px){
     nav .navflex-inner {
-     flex-direction: row;
+     flex-direction: column;
     }
   }
 
